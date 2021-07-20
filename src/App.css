@@ -1,17 +1,17 @@
 .App {
   height: 100vh;
-  text-align: center;
-  background-color: burlywood;
+  text-align: center; 
   background-position:center;
+  background-image: url("Components/Navbar/images/cows.jpg");
+  background-position: center;
+  background-size: cover;  
   
 }
 
 /*Navbar*/
 .nav{
   height: 15vh;
-  background-image: url("Components/Navbar/images/cows.jpg");
-  background-position: center;
-  background-size: cover;  
+ 
 }
 
 /*Contact Us Page*/
@@ -19,6 +19,8 @@
   margin-top: 40vh;
   border: darkgray 3px;
   width: 35vw;  
+  padding: 2em;
+  background-color: darkgray;
 }
 .text-area{
   max-height: 45vh;
