@@ -21,7 +21,7 @@ class Navbar extends React.Component {
                     <div class="collapse navbar-collapse fs-5 ms-5" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                               <Link class="nav-link active" to ="/">Home</Link>
+                               <Link class="nav-link active" to ="/">Welcome</Link>
                             </li>
                             <li class="nav-item">
                                 <Link class="nav-link active" to ="/about">About</Link>                               

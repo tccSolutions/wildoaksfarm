@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/wildoaksfarm/static/css/main.2d2ae190.chunk.css",
-    "main.js": "/wildoaksfarm/static/js/main.71e5ee0c.chunk.js",
-    "main.js.map": "/wildoaksfarm/static/js/main.71e5ee0c.chunk.js.map",
+    "main.js": "/wildoaksfarm/static/js/main.f6432a9f.chunk.js",
+    "main.js.map": "/wildoaksfarm/static/js/main.f6432a9f.chunk.js.map",
     "runtime-main.js": "/wildoaksfarm/static/js/runtime-main.9be9eac8.js",
     "runtime-main.js.map": "/wildoaksfarm/static/js/runtime-main.9be9eac8.js.map",
     "static/js/2.b1741718.chunk.js": "/wildoaksfarm/static/js/2.b1741718.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.9be9eac8.js",
     "static/js/2.b1741718.chunk.js",
     "static/css/main.2d2ae190.chunk.css",
-    "static/js/main.71e5ee0c.chunk.js"
+    "static/js/main.f6432a9f.chunk.js"
   ]
 }
