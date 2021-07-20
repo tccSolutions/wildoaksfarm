@@ -1,4 +1,10 @@
 import React from 'react'
+import {
+    BrowserRouter as Router,
+    Route,
+    Link,
+    Switch
+}from 'react-router-dom'
 import tree from './images/tree.png';
 
 
@@ -15,13 +21,13 @@ class Navbar extends React.Component {
                     <div class="collapse navbar-collapse fs-5 ms-5" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="/">Home</a>
+                               <Link class="nav-link active" to ="/">Home</Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="/about">About Us</a>
+                                <Link class="nav-link active" to ="/about">About</Link>                               
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="/contact">Contact Us</a>
+                                <Link class="nav-link active" to ="/contact">Contact Us</Link>                                
                             </li>                            
                         </ul>
                     </div>
