@@ -1,30 +1,85 @@
 .App {
-  height: 100vh;
+  height: 100vh; 
   text-align: center; 
   background-position:center;
   background-image: url("Components/Navbar/images/cows.jpg");
   background-position: center;
-  background-size: cover;  
-  
+  background-size: cover;
+  background-color: cornsilk;    
+}
+
+.background{
+  position:fixed;
+  top:0;
+  height: 100%;
+  width: 100%;
+  background-color: cornsilk;
+  z-index: -1;
 }
 
 /*Navbar*/
 .nav{
-  height: 15vh;
- 
+  height: 15vh; 
 }
 
 /*Contact Us Page*/
 .contact{
-  margin-top: 40vh;
+  margin-top: 35vh;
   border: darkgray 3px;
   width: 35vw;  
   padding: 2em;
   background-color: darkgray;
+  
 }
 .text-area{
   max-height: 45vh;
-  height: 35vh;
+  height: 25vh;
+}
+
+/*Homepage*/
+.home{
+  margin-top: 35vh;
+  background-color: cornsilk;
+  border-radius: 7%;
+  opacity: .90;
+}
+.home-head{
+  font-size: 6vh;
+  color:rgb(46, 54, 61);    
+}
+.home-body{
+  width:50vw; 
+  font-size: 3vh;
+}
+
+/*About page*/
+.about{
+  margin-top: 85vh;
+  height: 100%;     
+}
+.about-cell{
+  width:75vw;
+  background-color: burlywood;
+  margin-top: 15vh;
+  margin-bottom: 10vh;
+  border-radius: 5%;
+  opacity: .9;
+}
+.about-bg{ 
+  position:fixed;
+  top: 0;
+  height: 100vh;
+  color: burlywood;
+}
+.footer{
+  margin-top: 15vh;
+  height: 15vh;
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: cadetblue;
+  z-index: 2;
+  overflow: hidden;  
 }
 
 

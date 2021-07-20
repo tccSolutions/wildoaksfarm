@@ -4,7 +4,7 @@ class ContactUs extends React.Component {
     render() {
         return (
             <div className='position-relative'>
-                <div className = 'contact position-absolute start-50 translate-middle border border-4 border-dark rounded-3'>
+                <div className = 'contact container position-absolute start-50 translate-middle border border-4 border-dark rounded-3'>
                     <h1 className='fs-2 text-white'>Contact Us</h1>
                 <form class="row g-3 mt-5">
                     <div class="col-12">

@@ -10,6 +10,8 @@ import Navbar from './Components/Navbar/Navbar'
 import HomePage from './Components/HomePage/HomePage'
 import ContactUs from './Components/ContactUs/ContactUs'
 import About from './Components/About/About'
+import Background from './Components/Background/Background';
+import Footer from './Components/Footer/Footer'
 
 class App extends React.Component{
   render(){
@@ -17,6 +19,8 @@ class App extends React.Component{
       <Router>
         <div className="App">
           <Navbar/>
+          <Background/>
+          <Footer/>
           <Switch>
             <Route exact path='/' component={HomePage}></Route>
             <Route exact path='/about' component={About}></Route>

@@ -13,8 +13,8 @@ class Navbar extends React.Component {
         return (
             <nav class="navbar navbar-expand-lg navbar-dark  bg-dark nav navbar-nav-scroll">
                 <div class="container-fluid">                   
-                    <img src={tree} alt="" height="100vh"/>
-                    <a class="navbar-brand ms-2 fs-1" href="#">Wild Oaks Farm</a>
+                    <img src={tree} alt="" height="100vh"/>                    
+                    <Link class="navbar-brand ms-2 fs-1" to ="/">Wild Oaks Farm</Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
