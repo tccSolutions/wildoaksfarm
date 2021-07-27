@@ -17,9 +17,9 @@ class App extends React.Component{
   render(){
     return(
       <Router>
-        <div className="App">
-          <Navbar/>          
-          <Background/>
+        <div className="App"> 
+          <Navbar/>               
+          <Background/>             
           <Footer/>
           <Switch>
             <Route exact path='/'> <HomePage/> </Route>
