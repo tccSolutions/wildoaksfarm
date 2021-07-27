@@ -85,4 +85,21 @@
   overflow: hidden;  
 }
 
+@media only screen and (max-width: 600px){
+
+  .nav{
+    height: 15vh; 
+  }
+
+  .background{
+    margin-top: 10vh;
+    position: relative;     
+   
+  }
+
+  .photo{
+    position:relative;
+    margin-top: 0em;  
+  }
+}
 
